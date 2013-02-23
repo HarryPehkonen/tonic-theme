@@ -1,8 +1,8 @@
-# Soda Theme
+# Tonic Theme
 
-Dark and light custom UI themes for Sublime Text 2.
+A copy of the Soda Theme, dark and light custom UI themes for Sublime Text 3.  This version has minor tweaks, like more visible indicators for tabs whose files have changed.
 
-Project site: [http://buymeasoda.github.com/soda-theme/](http://buymeasoda.github.com/soda-theme/)
+Original project site: [http://buymeasoda.github.com/soda-theme/](http://buymeasoda.github.com/soda-theme/)
 
 ## Design
 
@@ -12,39 +12,44 @@ Project site: [http://buymeasoda.github.com/soda-theme/](http://buymeasoda.githu
 
 ## Installation
 
-Soda theme is designed to work with the latest [development build](http://www.sublimetext.com/dev) of Sublime Text 2.
-
-### Using Sublime Package Control
-
-If you are using Will Bond's excellent [Sublime Package Control](http://wbond.net/sublime_packages/package_control), you can easily install Soda Theme via the `Package Control: Install Package` menu item. The Soda Theme package is listed as `Theme - Soda` in the packages list.
+Soda theme is designed to work with the latest [development build](http://www.sublimetext.com/dev) of Sublime Text 3.
 
 ### Using Git
 
-Alternatively, if you are a git user, you can install the theme and keep up to date by cloning the repo directly into your `Packages` directory in the Sublime Text 2 application settings area.
+If you are a git user, you can install the theme and keep up to date by cloning the repo directly into your `Packages` directory in the Sublime Text 3 application settings area.
 
-You can locate your Sublime Text 2 `Packages` directory by using the menu item `Preferences -> Browse Packages...`.
+You can locate your Sublime Text 3 `Packages` directory by using the menu item `Preferences -> Browse Packages...`.
+
+On a Mac:
+
+	cd ~/Library/Application Support/Sublime Text 3/Packages
 
 While inside the `Packages` directory, clone the theme repository using the command below:
 
-    git clone https://github.com/buymeasoda/soda-theme/ "Theme - Soda"
+    git clone https://github.com/HarryPehkonen/not-soda-theme.git "Tonic Theme"
 
 ### Download Manually
 
 * Download the files using the GitHub .zip download option
-* Unzip the files and rename the folder to `Theme - Soda`
-* Copy the folder to your Sublime Text 2 `Packages` directory
+* Unzip the files and rename the folder to `Tonic Theme`
+* Copy the folder to your Sublime Text 3 `Packages` directory
 
 ## Activating the theme
 
-To configure Sublime Text 2 to use the theme:
+To configure Sublime Text 3 to use the theme:
 
-* Open your User Settings Preferences file `Sublime Text 2 -> Preferences -> Settings - User`
-* Add (or update) your theme entry to be `"theme": "Soda Light.sublime-theme"` or `"theme": "Soda Dark.sublime-theme"`
+* Open your User Settings Preferences file `Sublime Text 3 -> Preferences -> Settings - User`
+
+Or, on a Mac:
+
+	~/Library/Application Support/Sublime Text 3/Packages/User
+
+* Add (or update) your theme entry to be `"theme": "Tonic Light.sublime-theme"` or `"theme": "Tonic Dark.sublime-theme"`
 
 ### Example User Settings
 
     {
-        "theme": "Soda Light.sublime-theme"
+        "theme": "Tonic Light.sublime-theme"
     }
 
 ## Additional Features
@@ -61,13 +66,13 @@ By default, a square tab style is used. If you'd prefer to use the original curv
 
 ### Retina Resolution UI
 
-Soda Theme has been designed to take advantage of retina resolution (high-dpi) displays. Both Soda Light and Soda Dark support retina displays.
+Soda Theme has been designed to take advantage of retina resolution (high-dpi) displays. Both Tonic Light and Tonic Dark support retina displays.
 
 ![Soda Retina](http://buymeasoda.github.com/soda-theme/images/features/soda-retina.png)
 
 ### Theme Customisation
 
-Sublime Text 2 provides an elegant way to tweak existing themes without having to duplicate or maintain a separate copy of the original theme. If there are aspects of Soda Theme that you would like to adjust, take a look at the [theme customisation](https://github.com/buymeasoda/soda-theme/wiki/Theme-customisation) wiki page.
+Sublime Text 3 provides an elegant way to tweak existing themes without having to duplicate or maintain a separate copy of the original theme. If there are aspects of Soda Theme that you would like to adjust, take a look at the [theme customisation](https://github.com/buymeasoda/soda-theme/wiki/Theme-customisation) wiki page.
 
 ## Bonus Options
 
@@ -78,7 +83,7 @@ The Soda Light screenshot uses a modified version of Espresso Tutti Colori and t
 If you'd like to use the syntax highlighting schemes shown in the screenshots: 
 
 * Download [colour-schemes.zip](http://buymeasoda.github.com/soda-theme/extras/colour-schemes.zip)
-* Unzip and place the extracted `tmtheme` files in the Sublime Text 2 `Packages/User` folder
+* Unzip and place the extracted `tmtheme` files in the Sublime Text 3 `Packages/User` folder
 * Enable the colour scheme via `Preferences -> Color Scheme -> User`
 
 ### Code Font
@@ -93,7 +98,9 @@ While developing the theme, I have documented some [theme challenges and ideas](
 
 ## License
 
-Soda Theme is licensed under the [Creative Commons Attribution-ShareAlike 3.0 License](http://creativecommons.org/licenses/by-sa/3.0/). You are free to share and remix the theme, however please abide by the license terms when doing so. 
+Soda Theme is licensed under the [Creative Commons Attribution-ShareAlike 3.0 License](http://creativecommons.org/licenses/by-sa/3.0/). You are free to share and remix the theme, however please abide by the license terms when doing so.
+
+Tonic Theme does not impose any additional license.
 
 The following details apply to the Creative Commons license "author specified" components:
 
