@@ -26,7 +26,7 @@ On a Mac:
 
 While inside the `Packages` directory, clone the theme repository using the command below:
 
-    git clone https://github.com/HarryPehkonen/not-soda-theme.git "Tonic Theme"
+    git clone https://github.com/HarryPehkonen/tonic-theme.git "Tonic Theme"
 
 ### Download Manually
 
@@ -60,7 +60,7 @@ Soda Theme ships with two alternate UI tab styles.
 
 By default, a square tab style is used. If you'd prefer to use the original curved tab style, add the following custom setting to your `Settings - User` file:
 
-    "soda_classic_tabs": true
+    "tonic_classic_tabs": true
 
 ![Soda Tab Styles](http://buymeasoda.github.com/soda-theme/images/features/multiple-tab-styles.png)
 
