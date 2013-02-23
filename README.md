@@ -1,6 +1,8 @@
 # Tonic Theme
 
-A copy of the Soda Theme, dark and light custom UI themes for Sublime Text 3.  This version has minor tweaks, like more visible indicators for tabs whose files have changed.
+Based on Soda Theme by Ian Hill (http://buymeasoda.com/)
+
+A copy of the Soda Theme, dark and light custom UI themes for Sublime Text 2.  This version has minor tweaks, like more visible indicators for tabs whose files have changed.  This version is used in Sublime Text 3 (but should work in Sublime Text 2).
 
 Original project site: [http://buymeasoda.github.com/soda-theme/](http://buymeasoda.github.com/soda-theme/)
 
@@ -12,7 +14,7 @@ Original project site: [http://buymeasoda.github.com/soda-theme/](http://buymeas
 
 ## Installation
 
-Soda theme is designed to work with the latest [development build](http://www.sublimetext.com/dev) of Sublime Text 3.
+Tonic theme is designed to work with the latest [development build](http://www.sublimetext.com/dev) of Sublime Text 3.
 
 ### Using Git
 
